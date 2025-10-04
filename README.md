@@ -74,3 +74,26 @@ MindEase is an **AI-powered mental wellness chatbot** that allows users to:
 ## 🤝 Team  
 Built with ❤️ by haritha macharla for **HackSocial 2025**.  
 
+---
+
+## 🧭 Run locally (Windows - PowerShell)
+
+Start the backend (Flask + transformers). From repository root:
+
+```powershell
+cd .\backend
+python -m venv .venv; .\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python app.py
+```
+
+Start the frontend (Vite):
+
+```powershell
+cd .\frontend
+npm install
+npm run dev
+```
+
+By default the frontend runs on http://localhost:5173 and the backend on http://127.0.0.1:5000. The Chatbot component calls `/api/analyze` on the backend.
+
