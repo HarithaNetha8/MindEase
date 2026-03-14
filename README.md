@@ -95,5 +95,6 @@ npm install
 npm run dev
 ```
 
-By default the frontend runs on http://localhost:5173 and the backend on http://127.0.0.1:5000. The Chatbot component calls `/api/analyze` on the backend.
+By default the frontend runs on http://localhost:5173 and the backend on http://127.0.0.1:5000. 
+The Chatbot component calls `/api/analyze` on the backend.
 
